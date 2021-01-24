@@ -1,0 +1,5 @@
+Please start the program as:
+	python3 assignment6.py
+
+if opengl version is under 4, its not working. Also if you have opengl version 4 but system still uses opengl 3(which happened to me) please start the program as:
+	MESA_GL_VERSION_OVERRIDE=4.3 python3 assignment6.py 
